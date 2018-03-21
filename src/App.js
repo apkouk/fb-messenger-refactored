@@ -75,7 +75,7 @@ class App extends Component {
           toggleModal={this.toggleModal}
         />
         <TopBar />
-        <Messenger users={users} selectedUser={selectedUser} selectUser={this.selectUser}  />
+        <Messenger users={users} selectedUser={selectedUser} selectUser={this.selectUser} showSettings={this.showSettings}  />
         <Footer />
       </div>
     )

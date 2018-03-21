@@ -5,7 +5,7 @@ import Conversation from "./Conversation"
 const Messenger = (props) =>  (
 
 <div className="messenger">
-  <Thread users={props.users} selectedUser={props.selectedUser} selectUser={props.selectUser} />
+  <Thread users={props.users} selectedUser={props.selectedUser} selectUser={props.selectUser} showSettings={props.showSettings} />
   <Conversation selectedUser={props.selectedUser} />
 </div>
 

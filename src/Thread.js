@@ -1,14 +1,12 @@
 import React from 'react'
-import users from "./mocks/users.js"
-import messages from "./mocks/messages.js"
-import filterMessageByUsername from "./utils/filterMessageByUsername"
+
 
 const Thread = (props) => (
 
 <div className="threads">
   <div className="thread-bar">
     <h2>
-      <a onClick={this.showSettings}>
+      <a onClick={props.showSettings}>
         <i className="icon fas fa-cog" />
       </a>
       Messenger
